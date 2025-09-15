@@ -29,3 +29,13 @@ for i in range(1, n + 1):
 
 print("Factorial =", fact)
 
+print("Factorial using For Loop (Decrement)")
+n = int(input("Enter a number: "))
+fact = 1
+
+for i in range(n, 0, -1):
+    fact *= i
+
+print("Factorial =", fact)
+
+
